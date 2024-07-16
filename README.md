@@ -1,24 +1,22 @@
-### bot-gragas league python project ### 
+# bot-gragas league python project
  
 
 This is my object detection project based on Tensorflow. My goal was to create a League of Legends bot that would automatically recognize characters on the screen and perform voice commands given by the player. The bot is meant to play support champion - Yuumi.
 
-Technologies:
-- Python 3.10
-- Tensorflow 2.10
-- OpenCV
-- MSS
-- AutoHotKey
-- Numpy
-- SpeechRecognition
- 
+### Technologies:
+   - [Python 3.10](https://www.python.org/)
+   - [Tensorflow 2.10](https://www.tensorflow.org/)
+   - [OpenCV](https://opencv.org/)
+   - [MSS](https://python-mss.readthedocs.io/)
+   - [AutoHotKey](https://pypi.org/project/ahk/)
+   - [Numpy](https://numpy.org/)
+   - [SpeechRecognition](https://pypi.org/project/SpeechRecognition/)
 
 Simple guide how to use it:
-- To interact with the program, press the Left Control button
-- After hearing "beep" sound say command (bot listens for 2 seconds)
-- The finish of recording is again notified by sound signal
-- To quit program press "P" button
- 
+1. To interact with the program, press the Left Control button
+2. After hearing "beep" sound say command (bot listens for 2 seconds)
+3. The finish of recording is again notified by sound signal
+4. To quit program press "P" button
 
 Command list (only in Polish):
 - strzel + (champion name) - Yuumi casts PROWLING PROJECTILE in the enemy direction
@@ -39,14 +37,14 @@ League of Legends client has to be opened in the top left corner, in 1280x720 re
 Sample recognition
  
 
-****Gragas****
- 
+## Gragas
 
 gragas recognition from google images
 
- 
+ ![gragas recognition from google images](./img/gragas.jpg)
 
-****Nunu and Willump****
- 
+## Nunu and Willump
 
 nunu recognition from google images
+
+![nunu recognition from google images](./img/nunu.jpg)
